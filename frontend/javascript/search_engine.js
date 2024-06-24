@@ -35,7 +35,8 @@ class SearchEngine {
           return {
             url: item.url.trim(),
             heading: titlePreview,
-            preview: contentPreview
+            preview: contentPreview,
+            collection: item.collection.name
           }
         })
       } else {
